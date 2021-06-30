@@ -1,0 +1,140 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.nav-item a {
+  color: $base-paragraph !important;
+}
+
+.nav-item {
+  padding-right: 20px;
+}
+
+.nav-link.active {
+  color: $secondary-paragraph !important;
+  text-decoration: underline;
+}
+
+.nav-link:hover {
+  color: $secondary-paragraph !important;
+}
+
+footer {
+  background-color: #262626 !important;
+  color: $secondary-paragraph !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  max-width: 560px;
+  color: $base-paragraph;
+}
+
+.all-rights-reserved {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  color: $secondary-paragraph;
+}
+
+//Home//
+
+.text-color-image-container {
+  color: rgb(5, 5, 5);
+}
+
+p.lead {
+  text-align: center;
+}
+
+.portfolio-info p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.accordion h2 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.accordion p {
+  padding-bottom: 3rem !important;
+}
+
+.container.home p,
+h2,
+h3 {
+  margin: 0 auto;
+}
+
+.container.home h2,
+h3 {
+  padding-top: 100px;
+  padding-bottom: 1rem;
+}
+
+//About//
+
+.about-section-description p,
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  color: $secondary-paragraph;
+}
+
+.about-section-description hr {
+  color: $secondary-paragraph;
+}
+
+.about-section-description h1 {
+  padding-top: 5rem;
+}
+
+.about-section-skills p,
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.contact-section p,
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  color: $secondary-paragraph;
+}
+
+//Contact//
+
+.contact-section h1 {
+  padding-top: 5rem;
+}
+
+.contact-section hr {
+  color: $secondary-paragraph;
+}
+
+.contact-section p,
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
